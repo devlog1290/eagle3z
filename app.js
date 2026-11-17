@@ -1,1 +1,15 @@
-function login(){let u=document.getElementById('user').value;let p=document.getElementById('pass').value;if(u==='admin'&&p==='admin123'){location='dashboard.html'}else{document.getElementById('msg').innerText='Wrong login'}}
+function openYouTube() {
+    window.location.href = "youtube://";
+    
+    setTimeout(() => {
+        window.location.href = "https://youtube.com";
+    }, 1500);
+}
+
+function openTikTok() {
+    window.location.href = "tiktok://";
+
+    setTimeout(() => {
+        window.location.href = "https://tiktok.com";
+    }, 1500);
+}
